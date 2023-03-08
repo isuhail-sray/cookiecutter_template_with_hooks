@@ -5,6 +5,7 @@ COPY requirements.txt /
 
 RUN pip install --no-cache-dir -r /requirements.txt
 
+COPY . /app
+WORKDIR /app
 
-
-CMD python -m {{cookiecutter.repo_name}}
+CMD python -m {{cookiecutter.app_name}}
