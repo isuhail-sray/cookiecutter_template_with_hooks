@@ -1,3 +1,5 @@
 # Default README file for {{cookiecutter.app_name}}
 
-Change it
+## Setup Pre-commit
+
+To setup precommit, run `pre-commit install` 
